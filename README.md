@@ -1,4 +1,4 @@
-# HVWA
+# HVWA (SECURE)
 
 ## Welcome to Hatta Vulnerable Web App
 

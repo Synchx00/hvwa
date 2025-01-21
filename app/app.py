@@ -72,9 +72,8 @@ def login():
         username = request.form['username']
         password = request.form['password']
         
-        # Vulnerable query
-        query = f"SELECT * FROM users WHERE username = '{username}' AND password = '{password}'"
-        cursor.execute(query)
+        # Secure query using parameterized queries
+        cursor.execute("SELECT * FROM users WHERE username = %s AND password = %s", (username, password))
         user = cursor.fetchone()
         
         if user:
