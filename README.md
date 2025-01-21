@@ -4,8 +4,6 @@
 
 This project demonstrates a simple Flask application with MySQL as the database and Nginx as the web server. The application is containerized using Docker.
 
-http://34.59.84.247/ OR http://hvwa.sonsulung.com/
-
 ## Prerequisites
 
 Make sure you have the following installed:
